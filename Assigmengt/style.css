@@ -1,0 +1,135 @@
+/* Styles for the logo, back arrow, and content in the container div */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.back-arrow {
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+  cursor: pointer;
+}
+
+.content {
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Styles for the banner image */
+#banner {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  height: 30px;
+}
+
+/* Styles for the section with picture, heading, bullet points, and description */
+#section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 55px;
+}
+
+#section img {
+  flex: 2.5;
+  margin-right: 55px;
+}
+
+#section div {
+  flex: 2;
+}
+
+#section h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#section h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#section h3 div {
+  margin-top: 10px;
+}
+
+#section ul {
+  font-size: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section ul li {
+  margin-bottom: 10px;
+}
+
+#section p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border-left: 2.5cm solid white;
+  border-right: 2.5cm solid white;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+#footer {
+  position:bottom;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: grey;
+  color: green;
+  display: flex;
+  justify-content:
+
+  align-items normal;
+}
+#middle-content {
+  margin: 0 2cm;
+  height: 1000px;
+  overflow-y: scroll;
+  padding-bottom: 50px; /* Height of the footer */
+  margin-bottom: 50px; /* Height of the footer */
+}
+#contact-bar {
+  background-color: #f7f7f7;
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.contact-item {
+  margin: 0 20px;
+}
+
+.contact-item img {
+  width: 30px;
+  height: 30px;
+}
+
+
